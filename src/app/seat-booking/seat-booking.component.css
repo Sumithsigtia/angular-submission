@@ -1,0 +1,31 @@
+.booking-container {
+  text-align: center;
+}
+
+.coach {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.seat {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  background-color: green;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.seat.booked {
+  background-color: red;
+}

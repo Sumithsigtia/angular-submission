@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "firstapp": {
+    "seat-reservation-app": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/firstapp",
+            "outputPath": "dist/seat-reservation-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "firstapp:build:production"
+              "buildTarget": "seat-reservation-app:build:production"
             },
             "development": {
-              "buildTarget": "firstapp:build:development"
+              "buildTarget": "seat-reservation-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -97,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f791aa5b-7103-4a6c-bfcf-1c4688461599"
   }
 }
